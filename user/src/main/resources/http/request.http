@@ -1,1 +1,55 @@
-GET http://localhost:8080
+### 고객 회원가입
+POST http://localhost:8081/signup/customer
+Content-Type: application/json
+
+{
+  "birth": "2022-03-26",
+  "email": "tlstjdtn321@naver.com",
+  "name": "string",
+  "password": "string",
+  "phone": "string"
+}
+
+### 고객 인증
+GET http://localhost:8081/signup/customer/verify?email=tlstjdtn321@naver.com&code=qi2jzJQKmL
+
+
+### 고객 로그인
+POST http://localhost:8081/signIn/customer
+Content-Type: application/json
+
+{
+  "email": "tlstjdtn321@naver.com",
+  "password": "string"
+}
+
+### 고객 정보확인
+GET http://localhost:8081/customer/getInfo
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2NjEwNzEyMDMsImV4cCI6MTY2MTE1NzYwM30.cuPOiiKvYIB8nqhN2p623bZKOm5rnLaEtdgyl-Vg5zc
+
+
+
+### 판매자 회원가입
+POST http://localhost:8081/signup/seller
+Content-Type: application/json
+
+{
+  "birth": "2022-03-26",
+  "email": "tlstjdtn321@naver.com",
+  "name": "string",
+  "password": "string",
+  "phone": "string"
+}
+
+### 판매자 인증
+GET http://localhost:8081/signup/seller/verify?email=tlstjdtn321@naver.com&code=fw1fWk1Z9O
+
+### 판매자 로그인
+POST http://localhost:8081/signIn/seller
+Content-Type: application/json
+
+{
+  "email": "tlstjdtn321@naver.com",
+  "password": "string"
+}
+
