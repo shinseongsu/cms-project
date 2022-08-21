@@ -2,10 +2,9 @@ package com.zerobase.cms.user.controller;
 
 import com.zerobase.cms.user.domain.customer.CustomerDto;
 import com.zerobase.cms.user.domain.model.Customer;
-import com.zerobase.cms.user.domain.repository.CustomerRepository;
 import com.zerobase.cms.user.exception.CustomException;
 import com.zerobase.cms.user.exception.ErrorCode;
-import com.zerobase.cms.user.service.CustomerService;
+import com.zerobase.cms.user.service.customer.CustomerService;
 import com.zerobase.domain.common.UserVo;
 import com.zerobase.domain.config.JwtAuthenticationprovider;
 import lombok.RequiredArgsConstructor;

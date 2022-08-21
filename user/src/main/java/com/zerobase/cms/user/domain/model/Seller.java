@@ -3,6 +3,7 @@ package com.zerobase.cms.user.domain.model;
 import com.zerobase.cms.user.domain.SignUpForm;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.Locale;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -16,13 +17,13 @@ import lombok.Setter;
 import org.hibernate.envers.AuditOverride;
 
 @Entity
-@Setter
 @Getter
+@Setter
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @AuditOverride(forClass = BaseEntity.class)
-public class Customer extends BaseEntity {
+public class Seller extends BaseEntity{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -38,9 +39,9 @@ public class Customer extends BaseEntity {
     private String verificationCode;
     private boolean verify;
 
-    public static Customer from(SignUpForm form) {
-        return Customer.builder()
-            .email(form.getEmail())
+    public static Seller from(SignUpForm form) {
+        return Seller.builder()
+            .email(form.getEmail().toLowerCase(Locale.ROOT))
             .password(form.getPassword())
             .name(form.getName())
             .birth(form.getBirth())
@@ -48,5 +49,6 @@ public class Customer extends BaseEntity {
             .verify(false)
             .build();
     }
+
 
 }
