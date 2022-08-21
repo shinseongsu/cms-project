@@ -7,6 +7,7 @@ import com.zerobase.cms.user.domain.model.Customer;
 import com.zerobase.cms.user.exception.CustomException;
 import com.zerobase.cms.user.exception.ErrorCode;
 import com.zerobase.cms.user.service.SignUpCustomerService;
+import feign.Response;
 import java.time.LocalDateTime;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -56,7 +57,7 @@ public class SignUpApplication {
         StringBuilder builder = new StringBuilder();
         return builder.append("Hello ").append(name)
             .append("! Please Click Link for verficiation \n\n")
-            .append("http://localhost:8080/signup/verify/customer?email=")
+            .append("http://localhost:8081/signup/verify/customer?email=")
             .append(email)
             .append("&code=")
             .append(code).toString();

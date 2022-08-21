@@ -1,8 +1,7 @@
 package com.zerobase.cms.user.client.service;
 
 import com.zerobase.cms.user.client.MailgunClient;
-import com.zerobase.cms.user.client.config.FeignConfig;
-import feign.Response;
+import com.zerobase.cms.user.config.FeignConfig;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

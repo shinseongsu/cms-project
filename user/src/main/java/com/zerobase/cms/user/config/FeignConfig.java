@@ -1,4 +1,4 @@
-package com.zerobase.cms.user.client.config;
+package com.zerobase.cms.user.config;
 
 import feign.auth.BasicAuthRequestInterceptor;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -11,7 +11,7 @@ public class FeignConfig {
     @Qualifier(value = "mailgun")
     @Bean
     public BasicAuthRequestInterceptor basicAuthRequestInterceptor() {
-        return new BasicAuthRequestInterceptor("api", "5569b7ac660ce26ad0fd02bffb712dc6-4dd50799-d234dfa0");
+        return new BasicAuthRequestInterceptor("api", "beec1887a20eb11b856d6f3426022f7b-4dd50799-dc6b7890");
     }
 
 }
