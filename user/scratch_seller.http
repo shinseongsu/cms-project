@@ -1,0 +1,23 @@
+### 판매자 회원가입
+POST http://localhost:8081/signup/seller
+Content-Type: application/json
+
+{
+  "birth": "2022-03-26",
+  "email": "tlstjdtn321@naver.com",
+  "name": "string",
+  "password": "string",
+  "phone": "string"
+}
+
+### 판매자 인증
+GET http://localhost:8081/signup/seller/verify?email=tlstjdtn321@naver.com&code=fw1fWk1Z9O
+
+### 판매자 로그인
+POST http://localhost:8081/signIn/seller
+Content-Type: application/json
+
+{
+  "email": "tlstjdtn321@naver.com",
+  "password": "string"
+}
