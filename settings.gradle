@@ -1,4 +1,5 @@
 rootProject.name = 'cms'
 include 'user'
 include 'domain'
+include 'order'
 
