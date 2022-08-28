@@ -1,3 +1,346 @@
+POST http://localhost:8082/customer/cart/order
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjk5NDM4LCJleHAiOjE2NjE3ODU4Mzh9.G1am4i-tCS4168U-_3WZwd3BkmD27RwuX_GHKRebVdw
+
+{
+  "customerId": 1,
+  "products": [
+    {
+      "id": 1,
+      "sellerId": 1,
+      "name": "나이키 에어포스",
+      "description": "상품 설명",
+      "items": [
+        {
+          "id": 1,
+          "name": "270",
+          "count": 1,
+          "price": 1
+        }
+      ]
+    }
+  ],
+  "messages": []
+}
+
+###
+
+POST http://localhost:8082/customer/cart/order
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjk5NDM4LCJleHAiOjE2NjE3ODU4Mzh9.G1am4i-tCS4168U-_3WZwd3BkmD27RwuX_GHKRebVdw
+
+{
+  "customerId": 1,
+  "products": [
+    {
+      "id": 1,
+      "sellerId": 1,
+      "name": "나이키 에어포스",
+      "description": "상품 설명",
+      "items": [
+        {
+          "id": 1,
+          "name": "270",
+          "count": 1,
+          "price": 1
+        }
+      ]
+    }
+  ],
+  "messages": []
+}
+
+<> 2022-08-29T003337.500.json
+
+###
+
+POST http://localhost:8082/customer/cart/order
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjk5NDM4LCJleHAiOjE2NjE3ODU4Mzh9.G1am4i-tCS4168U-_3WZwd3BkmD27RwuX_GHKRebVdw
+
+{
+  "customerId": 1,
+  "products": [
+    {
+      "id": 1,
+      "sellerId": 1,
+      "name": "나이키 에어포스",
+      "description": "상품 설명",
+      "items": [
+        {
+          "id": 1,
+          "name": "270",
+          "count": 1,
+          "price": 1
+        }
+      ]
+    }
+  ],
+  "messages": []
+}
+
+<> 2022-08-29T003100.500.json
+
+###
+
+POST http://localhost:8082/customer/cart/order
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjk5NDM4LCJleHAiOjE2NjE3ODU4Mzh9.G1am4i-tCS4168U-_3WZwd3BkmD27RwuX_GHKRebVdw
+
+{
+  "customerId": 1,
+  "products": [
+    {
+      "id": 1,
+      "sellerId": 1,
+      "name": "나이키 에어포스",
+      "description": "상품 설명",
+      "items": [
+        {
+          "id": 1,
+          "name": "270",
+          "count": 1,
+          "price": 1
+        }
+      ]
+    }
+  ],
+  "messages": []
+}
+
+<> 2022-08-29T002802.500.json
+
+###
+
+POST http://localhost:8082/customer/cart/order
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjk5NDM4LCJleHAiOjE2NjE3ODU4Mzh9.G1am4i-tCS4168U-_3WZwd3BkmD27RwuX_GHKRebVdw
+
+{
+  "customerId": 1,
+  "products": [
+    {
+      "id": 1,
+      "sellerId": 1,
+      "name": "나이키 에어포스",
+      "description": "상품 설명",
+      "items": [
+        {
+          "id": 1,
+          "name": "270",
+          "count": 1,
+          "price": 1
+        }
+      ]
+    }
+  ],
+  "messages": []
+}
+
+<> 2022-08-29T002416.500.json
+
+###
+
+POST http://localhost:8082/customer/cart/order
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjk5NDM4LCJleHAiOjE2NjE3ODU4Mzh9.G1am4i-tCS4168U-_3WZwd3BkmD27RwuX_GHKRebVdw
+
+{
+  "customerId": 1,
+  "products": [
+    {
+      "id": 1,
+      "sellerId": 1,
+      "name": "나이키 에어포스",
+      "description": "상품 설명",
+      "items": [
+        {
+          "id": 1,
+          "name": "270",
+          "count": 1,
+          "price": 1
+        }
+      ]
+    }
+  ],
+  "messages": []
+}
+
+<> 2022-08-29T002247.500.json
+
+###
+
+POST http://localhost:8082/seller/product
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjI3MjQ1LCJleHAiOjE2NjE3MTM2NDV9.Lvg0KEwm146GY6DgFs2p-ZK3t-7jNTOOyzpS27Mn4pY
+
+{
+  "description": "상품 설명",
+  "items": [
+    {
+      "count": 1,
+      "name": "270",
+      "price": 1
+    }
+  ],
+  "name": "나이키 에어포스"
+}
+
+<> 2022-08-29T002242.200.json
+
+###
+
+GET http://localhost:8082/customer/cart
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjk5NDM4LCJleHAiOjE2NjE3ODU4Mzh9.G1am4i-tCS4168U-_3WZwd3BkmD27RwuX_GHKRebVdw
+
+<> 2022-08-29T002238.200.json
+
+###
+
+GET http://localhost:8082/customer/cart/order
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjk5NDM4LCJleHAiOjE2NjE3ODU4Mzh9.G1am4i-tCS4168U-_3WZwd3BkmD27RwuX_GHKRebVdw
+
+{
+  "customerId": 1,
+  "products": [
+    {
+      "id": 1,
+      "sellerId": 1,
+      "name": "나이키 에어포스",
+      "description": "상품 설명",
+      "items": [
+        {
+          "id": 1,
+          "name": "270",
+          "count": 1,
+          "price": 1
+        }
+      ]
+    }
+  ],
+  "messages": []
+}
+
+<> 2022-08-29T002201.405.json
+
+###
+
+GET http://localhost:8082/customer/cart
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjk5NDM4LCJleHAiOjE2NjE3ODU4Mzh9.G1am4i-tCS4168U-_3WZwd3BkmD27RwuX_GHKRebVdw
+
+<> 2022-08-29T001909.200.json
+
+###
+
+GET http://localhost:8082/customer/cart
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjk5NDM4LCJleHAiOjE2NjE3ODU4Mzh9.G1am4i-tCS4168U-_3WZwd3BkmD27RwuX_GHKRebVdw
+
+<> 2022-08-29T001443.200.json
+
+###
+
+GET http://localhost:8082/customer/cart
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjk5NDM4LCJleHAiOjE2NjE3ODU4Mzh9.G1am4i-tCS4168U-_3WZwd3BkmD27RwuX_GHKRebVdw
+
+<> 2022-08-29T001403.200.json
+
+###
+
+POST http://localhost:8082/customer/cart
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjI3MjQ1LCJleHAiOjE2NjE3MTM2NDV9.Lvg0KEwm146GY6DgFs2p-ZK3t-7jNTOOyzpS27Mn4pY
+
+{
+  "description": "상품 설명",
+  "id": 1,
+  "items": [
+    {
+      "id": 1,
+      "count": 1,
+      "name": "270",
+      "price": 100000
+    }
+  ],
+  "name": "나이키 에어포스",
+  "sellerId": 1
+}
+
+<> 2022-08-29T001247.200.json
+
+###
+
+POST http://localhost:8082/customer/cart
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjI3MjQ1LCJleHAiOjE2NjE3MTM2NDV9.Lvg0KEwm146GY6DgFs2p-ZK3t-7jNTOOyzpS27Mn4pY
+
+{
+  "description": "상품 설명",
+  "id": 1,
+  "items": [
+    {
+      "id": 1,
+      "count": 1,
+      "name": "270",
+      "price": 100000
+    }
+  ],
+  "name": "나이키 에어포스",
+  "sellerId": 1
+}
+
+<> 2022-08-29T001111.400.json
+
+###
+
+POST http://localhost:8082/seller/product
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjI3MjQ1LCJleHAiOjE2NjE3MTM2NDV9.Lvg0KEwm146GY6DgFs2p-ZK3t-7jNTOOyzpS27Mn4pY
+
+{
+  "description": "상품 설명",
+  "items": [
+    {
+      "count": 1,
+      "name": "270",
+      "price": 1
+    }
+  ],
+  "name": "나이키 에어포스"
+}
+
+<> 2022-08-29T001058.200.json
+
+###
+
+POST http://localhost:8081/signIn/seller
+Content-Type: application/json
+
+{
+  "email": "tlstjdtn321@naver.com",
+  "password": "string"
+}
+
+<> 2022-08-29T001039.200.txt
+
+###
+
+POST http://localhost:8081/signIn/seller
+Content-Type: application/json
+
+{
+  "email": "tlstjdtn321@naver.com",
+  "password": "string"
+}
+
+<> 2022-08-29T000915.200.txt
+
+###
+
 POST http://localhost:8082/customer/cart
 Content-Type: application/json
 X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjI3MjQ1LCJleHAiOjE2NjE3MTM2NDV9.Lvg0KEwm146GY6DgFs2p-ZK3t-7jNTOOyzpS27Mn4pY
@@ -631,278 +974,6 @@ X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd
 }
 
 <> 2022-08-28T160806.500.json
-
-###
-
-POST http://localhost:8082/customer/cart
-Content-Type: application/json
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjI3MjQ1LCJleHAiOjE2NjE3MTM2NDV9.Lvg0KEwm146GY6DgFs2p-ZK3t-7jNTOOyzpS27Mn4pY
-
-{
-  "description": "상품 설명",
-  "id": 1,
-  "items": [
-    {
-      "count": 1,
-      "name": "270",
-      "price": 100000
-    }
-  ],
-  "name": "나이키 에어포스",
-  "sellerId": 1
-}
-
-<> 2022-08-28T160803.200.json
-
-###
-
-POST http://localhost:8082/customer/cart
-Content-Type: application/json
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjI3MjQ1LCJleHAiOjE2NjE3MTM2NDV9.Lvg0KEwm146GY6DgFs2p-ZK3t-7jNTOOyzpS27Mn4pY
-
-{
-  "description": "상품 설명",
-  "id": 1,
-  "items": [
-    {
-      "count": 1,
-      "name": "270",
-      "price": 100000
-    }
-  ],
-  "name": "나이키 에어포스",
-  "sellerId": 1
-}
-
-<> 2022-08-28T160709.500.json
-
-###
-
-POST http://localhost:8082/seller/product
-Content-Type: application/json
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjI3MjQ1LCJleHAiOjE2NjE3MTM2NDV9.Lvg0KEwm146GY6DgFs2p-ZK3t-7jNTOOyzpS27Mn4pY
-
-{
-  "description": "상품 설명",
-  "items": [
-    {
-      "count": 1,
-      "name": "270",
-      "price": 100000
-    }
-  ],
-  "name": "나이키 에어포스"
-}
-
-<> 2022-08-28T160706.200.json
-
-###
-
-POST http://localhost:8082/customer/cart
-Content-Type: application/json
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjI3MjQ1LCJleHAiOjE2NjE3MTM2NDV9.Lvg0KEwm146GY6DgFs2p-ZK3t-7jNTOOyzpS27Mn4pY
-
-{
-  "description": "상품 설명",
-  "id": 1,
-  "items": [
-    {
-      "count": 1,
-      "name": "270",
-      "price": 100000
-    }
-  ],
-  "name": "나이키 에어포스",
-  "sellerId": 1
-}
-
-<> 2022-08-28T160702.400.json
-
-###
-
-POST http://localhost:8082/customer/cart
-Content-Type: application/json
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjI3MjQ1LCJleHAiOjE2NjE3MTM2NDV9.Lvg0KEwm146GY6DgFs2p-ZK3t-7jNTOOyzpS27Mn4pY
-
-{
-  "description": "상품 설명",
-  "id": 1,
-  "items": [
-    {
-      "count": 1,
-      "name": "270",
-      "price": 100000
-    }
-  ],
-  "name": "나이키 에어포스",
-  "sellerId": 1
-}
-
-<> 2022-08-28T160132.200.json
-
-###
-
-POST http://localhost:8082/seller/product
-Content-Type: application/json
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjI3MjQ1LCJleHAiOjE2NjE3MTM2NDV9.Lvg0KEwm146GY6DgFs2p-ZK3t-7jNTOOyzpS27Mn4pY
-
-{
-  "description": "상품 설명",
-  "items": [
-    {
-      "count": 1,
-      "name": "270",
-      "price": 100000
-    }
-  ],
-  "name": "나이키 에어포스"
-}
-
-<> 2022-08-28T160129.200.json
-
-###
-
-POST http://localhost:8082/customer/cart
-Content-Type: application/json
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjI3MjQ1LCJleHAiOjE2NjE3MTM2NDV9.Lvg0KEwm146GY6DgFs2p-ZK3t-7jNTOOyzpS27Mn4pY
-
-{
-  "description": "상품 설명",
-  "id": 1,
-  "items": [
-    {
-      "count": 1,
-      "name": "270",
-      "price": 100000
-    }
-  ],
-  "name": "나이키 에어포스",
-  "sellerId": 1
-}
-
-<> 2022-08-28T155845.500.json
-
-###
-
-POST http://localhost:8082/customer/cart
-Content-Type: application/json
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjI3MjQ1LCJleHAiOjE2NjE3MTM2NDV9.Lvg0KEwm146GY6DgFs2p-ZK3t-7jNTOOyzpS27Mn4pY
-
-{
-  "description": "상품 설명",
-  "id": 1
-  "items": [
-    {
-      "count": 1,
-      "name": "270",
-      "price": 100000
-    }
-  ],
-  "name": "나이키 에어포스",
-  "sellerId": 1
-}
-
-<> 2022-08-28T155801.400.json
-
-###
-
-POST http://localhost:8082/seller/product
-Content-Type: application/json
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjI3MjQ1LCJleHAiOjE2NjE3MTM2NDV9.Lvg0KEwm146GY6DgFs2p-ZK3t-7jNTOOyzpS27Mn4pY
-
-{
-  "description": "상품 설명",
-  "items": [
-    {
-      "count": 1,
-      "name": "270",
-      "price": 100000
-    }
-  ],
-  "name": "나이키 에어포스"
-}
-
-<> 2022-08-28T155757.200.json
-
-###
-
-GET http://localhost:8082/search/product/detail?productId=1
-
-<> 2022-08-28T144729.200.json
-
-###
-
-GET http://localhost:8082/search/product/detail?productid=1
-
-<> 2022-08-28T144717.400.json
-
-###
-
-GET http://localhost:8082/search/product?name=나이키
-
-GET http://localhost:8082/search/product/detail?name=
-
-<> 2022-08-28T144650.200.json
-
-###
-
-POST http://localhost:8082/seller/product
-Content-Type: application/json
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjI3MjQ1LCJleHAiOjE2NjE3MTM2NDV9.Lvg0KEwm146GY6DgFs2p-ZK3t-7jNTOOyzpS27Mn4pY
-
-{
-  "description": "상품 설명",
-  "items": [
-    {
-      "count": 1,
-      "name": "270",
-      "price": 100000
-    }
-  ],
-  "name": "나이키 에어포스"
-}
-
-<> 2022-08-28T144646.200.json
-
-###
-
-DELETE http://localhost:8082/seller/product/item?id=2
-Content-Type: application/json
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjU3OTk2LCJleHAiOjE2NjE3NDQzOTZ9.3c1K69aYkuHHH-pxkvKaYoEd3hGBBskmTzCeqB43COo
-
-<> 2022-08-28T144457.400.json
-
-###
-
-POST http://localhost:8082/seller/product
-Content-Type: application/json
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjI3MjQ1LCJleHAiOjE2NjE3MTM2NDV9.Lvg0KEwm146GY6DgFs2p-ZK3t-7jNTOOyzpS27Mn4pY
-
-{
-  "description": "상품 설명",
-  "items": [
-    {
-      "count": 1,
-      "name": "270",
-      "price": 100000
-    }
-  ],
-  "name": "나이키 에어포스"
-}
-
-<> 2022-08-28T144455.200.json
-
-###
-
-GET http://localhost:8082/search/product?name=나이키
-
-<> 2022-08-28T144451.200.json
-
-###
-
-POST http://localhost:8082/search/product?name=나이키
-
-<> 2022-08-28T144444.405.json
 
 ###
 
