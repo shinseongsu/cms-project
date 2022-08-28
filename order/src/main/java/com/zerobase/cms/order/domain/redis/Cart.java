@@ -13,12 +13,17 @@ import org.springframework.data.redis.core.RedisHash;
 
 @Data
 @NoArgsConstructor
+@AllArgsConstructor
 @RedisHash("cart")
 public class Cart {
     @Id
     private Long customerId;
     private List<Product> products = new ArrayList<>();
     private List<String> messages = new ArrayList<>();
+
+    public Cart(Long customerId) {
+        this.customerId = customerId;
+    }
 
     public void addMessage(String message) {
         messages.add(message);
@@ -66,4 +71,7 @@ public class Cart {
         }
     }
 
+    public Cart clone() {
+        return new Cart(customerId, products, messages);
+    }
 }
