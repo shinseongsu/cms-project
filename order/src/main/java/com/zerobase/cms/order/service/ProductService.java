@@ -22,6 +22,7 @@ public class ProductService {
         return productRepository.save(Product.of(sellerId, form));
     }
 
+    @Transactional
     public Product updateProduct(Long sellerId, UpdateProductForm form) {
         Product product = productRepository.findBySellerIdAndId(sellerId, form.getId())
             .orElseThrow(() -> new CustomException(ErrorCode.NOT_FOUND_PRODUCT));
@@ -41,6 +42,14 @@ public class ProductService {
         }
 
         return product;
+    }
+
+    @Transactional
+    public void deleteProduct(Long sellerId, Long productId) {
+        Product product = productRepository.findBySellerIdAndId(sellerId, productId)
+            .orElseThrow(() -> new CustomException(ErrorCode.NOT_FOUND_PRODUCT));
+
+        productRepository.delete(product);
     }
 
 }
