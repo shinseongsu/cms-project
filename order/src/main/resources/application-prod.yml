@@ -1,0 +1,29 @@
+server:
+  shutdown: graceful
+  port: 8082
+
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/orders?useSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: '0000'
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+  redis:
+    host: localhost
+    port: 6379
+
+
+feign:
+  client:
+    url:
+      user-api: 'localhost:8081'
