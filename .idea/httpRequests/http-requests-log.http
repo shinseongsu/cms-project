@@ -1,3 +1,83 @@
+GET http://localhost:8082/search/product/detail?productId=1
+
+<> 2022-08-28T144729.200.json
+
+###
+
+GET http://localhost:8082/search/product/detail?productid=1
+
+<> 2022-08-28T144717.400.json
+
+###
+
+GET http://localhost:8082/search/product?name=나이키
+
+GET http://localhost:8082/search/product/detail?name=
+
+<> 2022-08-28T144650.200.json
+
+###
+
+POST http://localhost:8082/seller/product
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjI3MjQ1LCJleHAiOjE2NjE3MTM2NDV9.Lvg0KEwm146GY6DgFs2p-ZK3t-7jNTOOyzpS27Mn4pY
+
+{
+  "description": "상품 설명",
+  "items": [
+    {
+      "count": 1,
+      "name": "270",
+      "price": 100000
+    }
+  ],
+  "name": "나이키 에어포스"
+}
+
+<> 2022-08-28T144646.200.json
+
+###
+
+DELETE http://localhost:8082/seller/product/item?id=2
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjU3OTk2LCJleHAiOjE2NjE3NDQzOTZ9.3c1K69aYkuHHH-pxkvKaYoEd3hGBBskmTzCeqB43COo
+
+<> 2022-08-28T144457.400.json
+
+###
+
+POST http://localhost:8082/seller/product
+Content-Type: application/json
+X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjI3MjQ1LCJleHAiOjE2NjE3MTM2NDV9.Lvg0KEwm146GY6DgFs2p-ZK3t-7jNTOOyzpS27Mn4pY
+
+{
+  "description": "상품 설명",
+  "items": [
+    {
+      "count": 1,
+      "name": "270",
+      "price": 100000
+    }
+  ],
+  "name": "나이키 에어포스"
+}
+
+<> 2022-08-28T144455.200.json
+
+###
+
+GET http://localhost:8082/search/product?name=나이키
+
+<> 2022-08-28T144451.200.json
+
+###
+
+POST http://localhost:8082/search/product?name=나이키
+
+<> 2022-08-28T144444.405.json
+
+###
+
 DELETE http://localhost:8082/seller/product/item?id=2
 Content-Type: application/json
 X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiU0VMTEVSIiwiaWF0IjoxNjYxNjU3OTk2LCJleHAiOjE2NjE3NDQzOTZ9.3c1K69aYkuHHH-pxkvKaYoEd3hGBBskmTzCeqB43COo
@@ -649,97 +729,6 @@ Content-Type: application/json
 }
 
 <> 2022-08-23T175507.400.json
-
-###
-
-POST http://localhost:8081/signup/customer
-Content-Type: application/json
-{:
-  "birth": "2022-03-26",
-  "email": "tlstjdtn321@naver.com",
-  "name": "string",
-  "password": "string",
-  "phone": "string"
-}:
-
-<> 2022-08-23T175500.400.html
-
-###
-
-POST http://localhost:8081/signup/customer
-Content-Type: application/json
-
-<> 2022-08-23T174839.400.json
-
-###
-
-POST http://localhost:8081/signup/customer
-Content-Type: application/json
-
-<> 2022-08-23T174721.400.json
-
-###
-
-POST http://localhost:8081/signup/customer
-Content-Type: application/json
-
-<> 2022-08-23T174712.400.json
-
-###
-
-POST http://localhost:8081/customer/balance
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2NjEyNDM1NjQsImV4cCI6MTY2MTMyOTk2NH0.ZsrlfqMzA1GCZDtiKh9GDKMTHwrIAEX497UkA0wuYbo
-Content-Type: application/json
-
-{
-  "from": "tlstjdtn321@naver.com",
-  "message": "string",
-  "money": -100
-}
-
-<> 2022-08-23T173920.200.json
-
-###
-
-POST http://localhost:8081/customer/balance
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2NjEyNDM1NjQsImV4cCI6MTY2MTMyOTk2NH0.ZsrlfqMzA1GCZDtiKh9GDKMTHwrIAEX497UkA0wuYbo
-Content-Type: application/json
-
-{
-  "from": "tlstjdtn321@naver.com",
-  "message": "string",
-  "money": -5000
-}
-
-<> 2022-08-23T173914.400.json
-
-###
-
-POST http://localhost:8081/customer/balance
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2NjEyNDM1NjQsImV4cCI6MTY2MTMyOTk2NH0.ZsrlfqMzA1GCZDtiKh9GDKMTHwrIAEX497UkA0wuYbo
-Content-Type: application/json
-
-{
-  "from": "tlstjdtn321@naver.com",
-  "message": "string",
-  "money": 100
-}
-
-<> 2022-08-23T173810.200.json
-
-###
-
-POST http://localhost:8081/customer/balance
-X-AUTH-TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJPM2hLVGpRYkZXeWh2R00wN0p4MEFVZjJZd0NuNldpSVpNV1JhNUpCZnFjPSIsImp0aSI6IkNtWUR2NU1LNVlVeWlrOEtHTkR3b3c9PSIsInJvbGVzIjoiQ1VTVE9NRVIiLCJpYXQiOjE2NjEyNDM1NjQsImV4cCI6MTY2MTMyOTk2NH0.ZsrlfqMzA1GCZDtiKh9GDKMTHwrIAEX497UkA0wuYbo
-Content-Type: application/json
-
-{
-  "from": "tlstjdtn321@naver.com",
-  "message": "string",
-  "money": 100
-}
-
-<> 2022-08-23T173807.200.json
 
 ###
 
