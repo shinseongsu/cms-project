@@ -3,23 +3,16 @@ server:
   shutdown: graceful
 
 spring:
+  ## 기본은 test로 설정
+  profiles:
+    active: test
+
   mvc:
     pathmatch:
       matching-strategy: ant_path_matcher
 
-  datasource:
-    url: jdbc:mysql://localhost:3306/zeroorder?useSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: '0000'
-
   jpa:
     show-sql: true
-    hibernate:
-      ddl-auto: update
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQL5Dialect
 
 feign:
   okhttp:

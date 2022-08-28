@@ -33,5 +33,4 @@ public class CustomerBalanceHistory extends BaseEntity {
 
     private String fromMessage;
     private String description;
-
 }
