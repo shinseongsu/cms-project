@@ -1,5 +1,10 @@
 package com.zerobase.cms.user.service.seller;
 
+import static com.zerobase.cms.user.exception.ErrorCode.ALREADY_VERIFY;
+import static com.zerobase.cms.user.exception.ErrorCode.EXPIRE_CODE;
+import static com.zerobase.cms.user.exception.ErrorCode.NOT_FOUND_USER;
+import static com.zerobase.cms.user.exception.ErrorCode.WRONG_VERIFICATION;
+
 import com.zerobase.cms.user.domain.SignUpForm;
 import com.zerobase.cms.user.domain.model.Seller;
 import com.zerobase.cms.user.domain.repository.SellerRepository;
@@ -17,10 +22,6 @@ public class SellerService {
 
     private final SellerRepository sellerRepository;
 
-    public Optional<Seller> findByIdAndEmail(Long id, String email) {
-        return sellerRepository.findByIdAndEmail(id, email);
-    }
-
     public Optional<Seller> findValidSeller(String email, String password) {
         return sellerRepository.findByEmailAndPasswordAndVerifyIsTrue(email, password);
     }
@@ -36,16 +37,31 @@ public class SellerService {
     @Transactional
     public void verifyEmail(String email, String code) {
         Seller seller = sellerRepository.findByEmail(email)
-            .orElseThrow(() -> new CustomException(ErrorCode.NOT_FOUND_USER));
+            .orElseThrow(() -> new CustomException(NOT_FOUND_USER));
 
-        if(seller.isVerify()) {
-            throw new CustomException(ErrorCode.ALREADY_VERIFY);
-        } else if(!seller.getVerificationCode().equals(code)) {
-            throw new CustomException(ErrorCode.WRONG_VERIFICATION);
-        } else if(seller.getVerifyExpiredAt().isBefore(LocalDateTime.now())) {
-            throw new CustomException(ErrorCode.EXPIRE_CODE);
-        }
+        isSellerVerify(seller);
+        isNotEqualsVerificationCode(seller, code);
+        isBeforeVerifyExpiredAt(seller);
+
         seller.setVerify(true);
+    }
+
+    private void isSellerVerify(Seller seller) {
+        if(seller.isVerify()) {
+            throw new CustomException(ALREADY_VERIFY);
+        }
+    }
+
+    private void isNotEqualsVerificationCode(Seller seller, String code) {
+        if(!seller.getVerificationCode().equals(code)) {
+            throw new CustomException(WRONG_VERIFICATION);
+        }
+    }
+
+    private void isBeforeVerifyExpiredAt(Seller seller) {
+        if(seller.getVerifyExpiredAt().isBefore(LocalDateTime.now())) {
+            throw new CustomException(EXPIRE_CODE);
+        }
     }
 
     @Transactional
@@ -58,7 +74,7 @@ public class SellerService {
             seller.setVerifyExpiredAt(LocalDateTime.now().plusDays(1));
             return seller.getVerifyExpiredAt();
         }
-        throw new CustomException(ErrorCode.NOT_FOUND_USER);
+        throw new CustomException(NOT_FOUND_USER);
     }
 
 }

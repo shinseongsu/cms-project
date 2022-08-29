@@ -1,11 +1,12 @@
 package com.zerobase.cms.order.client;
 
+import com.zerobase.cms.order.client.order.OrderListMainForm;
 import com.zerobase.cms.order.client.user.ChangeBalanceForm;
 import com.zerobase.cms.order.client.user.CustomerDto;
-import lombok.Getter;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 
@@ -18,5 +19,9 @@ public interface UserClient {
     @GetMapping("/customer/balance")
     ResponseEntity<Integer> changeBalance(@RequestHeader(name = "X-AUTH-TOKEN") String token,
                                                 @RequestBody ChangeBalanceForm form);
+
+    @PostMapping("/mail/send/orderList")
+    ResponseEntity<Void> sendmailOfOrderList(@RequestHeader(name = "X-AUTH-TOKEN") String token,
+                                                @RequestBody OrderListMainForm orderInfo);
 
 }
